@@ -1,0 +1,49 @@
+.manual-payment-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 61px;
+  height: 61px;
+  border-radius: 15px;
+  color: #bd8b5d;
+  background: #f5ead8;
+}
+.payment-steps {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.payment-steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.payment-steps li > span {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #f6eddc;
+  color: #b89462;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+.payment-steps b {
+  display: block;
+  font-size: 11px;
+  color: #96815f;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.payment-steps small {
+  display: block;
+  font-size: 9px;
+  color: #b2a084;
+  margin-top: 5px;
+  line-height: 1.8;
+}
